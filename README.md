@@ -48,14 +48,15 @@ Aplikasi menggunakan minimal **2 jenis data**:
 ### 1. **Data Tugas**
 ```json
 {
-  "title": "Mengerjakan Laporan",
-  "description": "Laporan bab 3",
+  "title": "Mengerjakan UTS",
+  "description": "Laporan bab 1",
   "category": "Kuliah",
-  "dueDate": "2025-12-01",
+  "dueDate": "2025-22-29",
   "priority": "Sedang",
   "estimateHours": 3,
   "isDone": false
 }
+
 
 
 
