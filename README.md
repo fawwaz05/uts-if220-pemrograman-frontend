@@ -5,7 +5,7 @@ Aplikasi ini dibuat sebagai bagian dari **UTS Mata Kuliah IF220 – Pemrograman 
 
 ---
 
-## 🎯 Tujuan Aplikasi
+## Tujuan Aplikasi
 Aplikasi ini dibuat untuk membantu pengguna:
 - Menambahkan dan mengatur tugas
 - Mengelompokkan tugas berdasarkan kategori
@@ -14,33 +14,33 @@ Aplikasi ini dibuat untuk membantu pengguna:
 
 ---
 
-## 🧩 Fitur Utama
+## Fitur Utama
 Aplikasi ini memiliki minimal **3 fitur utama** sesuai ketentuan UTS:
 
-### ✔ 1. CRUD (Create, Read, Update, Delete)
+### 1. CRUD (Create, Read, Update, Delete)
 - Tambah tugas  
 - Edit tugas  
 - Hapus tugas  
 
-### ✔ 2. Filter & Pencarian
+### 2. Filter & Pencarian
 - Filter berdasarkan **kategori**
 - Filter berdasarkan **status** (Selesai / Belum)
 - Pencarian berdasarkan **judul tugas**
 
-### ✔ 3. Statistik Tugas
+###  3. Statistik Tugas
 - Total tugas  
 - Tugas selesai  
 - Tugas belum selesai  
 - Total estimasi jam  
 
-### ✔ 4. Validasi Form + Feedback
+### 4. Validasi Form + Feedback
 - Wajib isi judul, kategori, deadline  
 - Estimasi jam tidak boleh negatif  
 - Pesan sukses dan gagal tampil secara dinamis  
 
 ---
 
-## 🗂 Jenis Data yang Digunakan
+## Jenis Data yang Digunakan
 Aplikasi menggunakan minimal **2 jenis data**:
 
 ### 1. **Data Tugas**
@@ -54,3 +54,4 @@ Aplikasi menggunakan minimal **2 jenis data**:
   "estimateHours": 3,
   "isDone": false
 }
+
