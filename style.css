@@ -1,0 +1,296 @@
+/* ================================
+   RESET & GLOBAL STYLE
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* ================================
+   HEADER
+================================ */
+header {
+  background: #0653a3;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* ================================
+   NAVIGATION BAR
+================================ */
+nav {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #e5ecfa;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  background: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background: #d7e4ff;
+}
+
+.nav-btn.active {
+  background: #0653a3;
+  color: #fff;
+}
+
+/* ================================
+   MAIN CONTENT AREA
+================================ */
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* SECTION BOX */
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+/* ================================
+   FORM STYLE
+================================ */
+form label {
+  margin-top: 12px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e6;
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.radio-group {
+  margin-top: 5px;
+}
+
+.radio-group label {
+  margin-right: 12px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background: #0653a3;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #003d7a;
+}
+
+.btn-secondary {
+  background: #e2e7f2;
+  color: #000;
+}
+
+/* ================================
+   MESSAGE BOX
+================================ */
+#message {
+  display: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+}
+
+#message.success {
+  display: block;
+  background: #daf5d9;
+  color: #064d1f;
+  border: 1px solid #a6e8a4;
+}
+
+#message.error {
+  display: block;
+  background: #ffe3e3;
+  color: #8d0f0f;
+  border: 1px solid #ffbaba;
+}
+
+/* ================================
+   TABLE STYLE
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+th {
+  background: #eef3ff;
+  text-align: left;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.action-btn.edit {
+  background: #ffb22e;
+  color: #fff;
+}
+
+.action-btn.delete {
+  background: #d62828;
+  color: #fff;
+}
+
+/* ================================
+   FILTER BAR
+================================ */
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+/* ================================
+   STATISTICS SECTION
+================================ */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.stat-card {
+  background: #f0f4ff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #e5ecfa;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+/* ================================
+   UTILITY
+================================ */
+.hidden {
+  display: none;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+@media (max-width: 800px) {
+  nav {
+    justify-content: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  th, td {
+    font-size: 0.8rem;
+  }
+
+  .nav-btn {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
