@@ -1,5 +1,8 @@
 # Task Manager UTS – IF220 Pemrograman Front-End
 
+Nama: MUHAMMAD SYAFIQ FAWWAZ AL HANIF
+NIM: 1002240021
+
 Aplikasi **Task Manager UTS** adalah aplikasi web sederhana berbasis **HTML, CSS, dan JavaScript** yang digunakan untuk mengelola daftar tugas (to-do list) dengan fitur tambah, ubah, hapus, filter, pencarian, dan statistik.  
 Aplikasi ini dibuat sebagai bagian dari **UTS Mata Kuliah IF220 – Pemrograman Front-End**.
 
@@ -54,4 +57,5 @@ Aplikasi menggunakan minimal **2 jenis data**:
   "estimateHours": 3,
   "isDone": false
 }
+
 
