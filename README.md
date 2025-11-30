@@ -56,6 +56,20 @@ Aplikasi menggunakan minimal **2 jenis data**:
   "estimateHours": 3,
   "isDone": false
 }
+{
+  "title": "Mengerjakan laporan",
+  "description": "Laporan bab 3",
+  "category": "Kuliah",
+  "dueDate": "2025-22-29",
+  "priority": "Sedang",
+  "estimateHours": 2,
+  "isDone": true
+}
+
+
+
+
+
 
 
 
